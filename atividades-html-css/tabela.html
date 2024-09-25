@@ -3,18 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Imagens</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tabela de Preços</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 20px;
+            background-color: #caadf0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #7a47cc;
+            color: white;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+        }
+    </style>
 </head>
 <body>
-    <h1>Galeria de Imagens</h1>
-    <div class="gallery">
-        <img src="imagem1.jpg" alt="Imagem 1">
-        <img src="imagem2.jpg" alt="Imagem 2">
-        <img src="imagem3.jpg" alt="Imagem 3">
-        <img src="imagem4.jpg" alt="Imagem 4">
-        <img src="imagem5.jpg" alt="Imagem 5">
-        <img src="imagem6.jpg" alt="Imagem 6">
-    </div>
+    <h1>Tabela de Preços</h1>
+    <table>
+        <tr>
+            <th>Produtos</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Kit Eudora</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr>
+            <td>Kit Creamy</td>
+            <td>R$ 150,00</td>
+        </tr>
+        <tr>
+            <td>Kit BocaRosa</td>
+            <td>R$ 200,00</td>
+        </tr>
+    </table>
 </body>
 </html>
+
